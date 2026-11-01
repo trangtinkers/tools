@@ -35,3 +35,11 @@ DELAY=5 ./yt-playlist-defuddle.sh "https://www.youtube.com/playlist?list=..." "N
 - Safe to re-run: videos that already have a non-empty note are skipped, so an interrupted run picks up where it left off.
 - Deleted and private videos are skipped.
 - A failed video doesn't stop the run; any partial file is removed and the failure is counted in the summary.
+
+## grep-paragraphs.sh
+
+Pulls every paragraph that mentions any of the given words out of a folder of Markdown files and writes them to one new Markdown file, grouped by source file. See [grep-paragraphs.md](grep-paragraphs.md) for options and examples.
+
+```bash
+./grep-paragraphs.sh -d ~/notes slice slicing
+```
