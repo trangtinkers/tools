@@ -43,3 +43,7 @@ Pulls every paragraph that mentions any of the given words out of a folder of Ma
 ```bash
 ./grep-paragraphs.sh -d ~/notes slice slicing
 ```
+
+## spotify-podcast-transcript.js
+
+A DevTools console snippet that saves the transcript of a Spotify podcast episode as a `.txt` file. Open the episode on open.spotify.com, show the transcript panel, and paste the script into the console. See [spotify-podcast-transcript.md](spotify-podcast-transcript.md) for a copy-to-clipboard variant, and [cleaning-transcripts-in-vim.md](cleaning-transcripts-in-vim.md) for four vim commands that strip the timestamps and join each speaker's lines into paragraphs.
